@@ -1,4 +1,4 @@
-import Hero from "@/components/ui/hero";
+import Hero from "@/components/hero";
 import Introduction from "@/components/intoduction";
 import Murad from "@/components/serums/murad";
 import Radical from "@/components/serums/radical";
