@@ -9,7 +9,7 @@ import Link from "next/link"
 
 export default function Radical() {
   return (
-    <Card className="w-full max-w-3xl mx-auto shadow-lg rounded-lg py-0 font-light mb-8">
+    <Card className="w-full mx-auto shadow-lg rounded-lg py-0 font-light mb-8">
       <CardHeader className="bg-[#E6E6E6] rounded-t-lg py-12">
         <CardTitle className="text-3xl font-semibold text-center">
           №1 – Radical Skincare Youth Infusion Serum

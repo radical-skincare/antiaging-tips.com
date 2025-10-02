@@ -4,15 +4,15 @@ import { CardContent } from "@/components/ui/card"
 
 export default function WhyRadical() {
   return (
-    <CardContent className="space-y-4 pb-6">
-      <h2 className="text-2xl font-semibold">
+    <div className="space-y-4 pb-6 font-light mt-10">
+      <h2 className="text-3xl font-semibold">
         Why Radical Youth Infusion Serum Took the #1 Spot
       </h2>
       <p>
         While other serums do part of the job, Radical Skincare combines every major
         factor we look for:
       </p>
-      <ul className="list-disc list-inside space-y-2">
+      <ul className="list-disc list-inside ps-6">
         <li>
           <span className="font-semibold">The Right Ingredients —</span> A synergistic blend
           of peptides (to rebuild collagen), advanced hyaluronic technology (for deep
@@ -41,6 +41,6 @@ export default function WhyRadical() {
           appearance.
         </li>
       </ul>
-    </CardContent>
+    </div>
   )
 }
