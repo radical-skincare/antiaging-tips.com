@@ -113,6 +113,9 @@ export default function Radical() {
             <span className="font-semibold">Our experience: </span> Testers noticed smoother texture within days, stronger hydration balance, and gradual improvement in firmness and fine lines. Many said their skin felt healthier, not just temporarily plumped.
           </p>
         </div>
+        <p className="text-center text-lg font-semibold text-red-600 bg-red-50 border border-red-100 rounded-md py-3 mt-6">
+          Up to 30% Off — Limited Time
+        </p>
         <Button className="mx-auto rounded-sm bg-[#333333] block px-8 py-2 text-md h-auto font-light mt-6">
           <Link href="https://shop.radicalskincare.com/products/youth-infusion-serum-15ml-bogo">Visit Site</Link>
         </Button>

@@ -12,6 +12,12 @@ import SpecialOffer from "@/components/SpeicalOffer";
 export default function Home() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
+      <div className="flex items-center gap-3 absolute top-4 left-0 right-0 max-w-4xl mx-auto px-10">
+        <span className="uppercase text-xs font-semibold tracking-wider bg-gray-100 text-gray-700 px-3 py-1 rounded">
+          Advertorial
+        </span>
+        <h1 className="text-lg font-semibold text-gray-800">Beauty Secrets</h1>
+      </div>
       <Hero />
       <Introduction/>
       <div className="py-16 ps-6">
