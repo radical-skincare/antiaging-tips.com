@@ -12,11 +12,11 @@ import SpecialOffer from "@/components/SpeicalOffer";
 export default function Home() {
   return (
     <div className="max-w-4xl mx-auto px-6 py-16">
-      <div className="flex items-center gap-3 absolute top-4 left-0 right-0 max-w-4xl mx-auto px-10">
-        <span className="uppercase text-xs font-semibold tracking-wider bg-gray-100 text-gray-700 px-3 py-1 rounded">
+      <div className="flex items-start justify-between gap-3 absolute top-4 left-0 right-0 max-w-4xl mx-auto px-12">
+        <h1 className="text-2xl font-semibold text-gray-800">Beauty Secrets</h1>
+        <span className="capitalize text-[9px] font-semibold tracking-wider bg-gray-100 text-gray-700 px-2 rounded">
           Advertorial
         </span>
-        <h1 className="text-lg font-semibold text-gray-800">Beauty Secrets</h1>
       </div>
       <Hero />
       <Introduction/>
