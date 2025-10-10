@@ -7,9 +7,12 @@ export default function Hero() {
       <div className="">
         <Card className="border-0 shadow-none">
           <CardHeader>
-            <h1 className="text-3xl font-bold">
+            <h1 className="text-2xl md:text-3xl font-bold hidden md:block">
               Radical Skincare Anti-Aging Serum Compared — And Why You Might{" "}
               <span className="text-primary">Rethink All Your Other Serums</span>
+            </h1>
+            <h1 className="text-3xl font-bold md:hidden">
+              Anti-Ageing Serum Compared — And Why You Might Rethink All Your Other Serums
             </h1>
           </CardHeader>
           <CardContent className="space-y-8">

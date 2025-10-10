@@ -18,7 +18,7 @@ export default function Introduction() {
           <p>With so many bottles promising miracles, the question remains: Which serums actually deliver visible results?</p>
         </div>
          <div className="mt-8">
-           <h2 className="text-3xl font-bold mb-4">How We Ranked These Serums</h2>
+           <h2 className="text-2xl md:text-3xl font-bold mb-4">How We Ranked These Serums</h2>
            <p className="mb-4 font-light">We evaluated each serum based on five key factors that matter most in skin health:</p>
            <ol className="space-y-2 list-decimal list-inside pl-6 font-light">
              <li>

@@ -6,7 +6,7 @@ import Link from "next/link"
 export default function BottomLine() {
   return (
     <section className="mx-auto font-light space-y-4 pt-8">
-      <h2 className="text-3xl font-semibold">The Bottom Line</h2>
+      <h2 className="text-2xl md:text-3xl font-semibold">The Bottom Line</h2>
       <p>
         You could spend hundreds testing serum after serum, only to find many are little more
         than fancy moisturizers. Or, you can choose a formula that combines the best of modern

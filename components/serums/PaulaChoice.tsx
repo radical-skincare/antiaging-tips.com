@@ -9,7 +9,7 @@ export default function PaulaChoice() {
   return (
     <Card className="w-full mx-auto shadow-lg rounded-lg py-0 font-light mb-8">
       <CardHeader className="bg-[#E6E6E6] rounded-t-lg py-12">
-        <CardTitle className="text-3xl font-semibold text-center">
+        <CardTitle className="text-2xl md:text-3xl font-semibold text-center">
           №4 – Paula’s Choice Pro-Collagen Multi-Peptide Booster
         </CardTitle>
         <p className="text-center">(Clean, Research-Driven Formula)</p>
@@ -29,13 +29,13 @@ export default function PaulaChoice() {
           <div className="p-4 shadow-md rounded-xl w-full text-center grid items-center">
             <div>
               <p className="text-xl font-semibold mb-2">Overall Grade</p>
-              <p className="text-3xl font-bold">B</p>
+              <p className="text-2xl md:text-3xl font-bold">B</p>
             </div>
           </div>
           <div className="p-4 shadow-md rounded-xl w-full text-center grid items-center">
             <div>
               <p className="text-xl font-semibold mb-2">Rating</p>
-              <p className="text-3xl font-bold mb-4">8.3/10</p>
+              <p className="text-2xl md:text-3xl font-bold mb-4">8.3/10</p>
               <div className="flex justify-center mt-1 text-yellow-500">
                 {[...Array(4)].map((_, i) => (
                   <Star key={i} className="h-4 w-4 fill-yellow-500" />

@@ -7,7 +7,7 @@ import Link from "next/link"
 export default function SpecialOffer() {
   return (
     <div className="space-y-4 pb-6 font-light mt-10">
-      <h2 className="text-3xl font-semibold">Special Offer for Our Readers</h2>
+      <h2 className="text-2xl md:text-3xl font-semibold">Special Offer for Our Readers</h2>
       <p>We reached out to Radical Skincare after our review, and they agreed to extend an exclusive deal:</p>
       <ul className="list-disc list-inside ps-6 font-semibold">
         <li>Up to 30% Off — Limited Time</li>

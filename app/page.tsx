@@ -11,8 +11,8 @@ import SpecialOffer from "@/components/SpeicalOffer";
 
 export default function Home() {
   return (
-    <div className="max-w-4xl mx-auto px-6 py-16">
-      <div className="flex items-start justify-between gap-3 absolute top-4 left-0 right-0 max-w-4xl mx-auto px-12">
+    <div className="max-w-4xl mx-auto md:px-6 py-16">
+      <div className="flex items-start justify-between gap-3 absolute top-4 left-0 right-0 max-w-4xl mx-auto px-6 md:px-12">
         <h1 className="text-2xl font-semibold text-gray-800">Beauty Secrets</h1>
         <span className="capitalize text-[9px] font-semibold tracking-wider bg-gray-100 text-gray-700 px-2 rounded">
           Advertorial
@@ -20,8 +20,8 @@ export default function Home() {
       </div>
       <Hero />
       <Introduction/>
-      <div className="py-16 ps-6">
-        <h2 className="text-3xl font-bold mb-8 text-center">Our Top 5 Serums</h2>
+      <div className="py-16 px-6">
+        <h2 className="text-2xl md:text-3xl font-bold mb-8 text-center">Our Top 5 Serums</h2>
         <Radical/>
         <Murad/>
         <Protini/>

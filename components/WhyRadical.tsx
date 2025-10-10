@@ -5,7 +5,7 @@ import { CardContent } from "@/components/ui/card"
 export default function WhyRadical() {
   return (
     <div className="space-y-4 pb-6 font-light mt-10">
-      <h2 className="text-3xl font-semibold">
+      <h2 className="text-2xl md:text-3xl font-semibold">
         Why Radical Youth Infusion Serum Took the #1 Spot
       </h2>
       <p>
